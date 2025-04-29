@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purchase Form</title>
+</head>
+<body bgcolor="aqua">
+    <center>
+    <h2>Purchase Form</h2>
+    <form action="/submit_purchase" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea><br><br>
+
+        <label for="product">Product:</label>
+        <select id="product" name="product" required>
+           
+            <option value="product2" selected>clothes</option>
+           
+        </select><br><br>
+
+        <label for="product">Product name:</label>
+        <select id="product" name="product" required>
+           
+            <option value="product2" selected>Regular Fit Sweatpants</option>
+            <option value="product2" selected> Fit Sweatpants</option>
+            <option value="product2" selected>Blue Jacquard Plain Design Kurta</option>
+            <option value="product2" selected>Slim Fit Single-breasted jacket</option>
+            <option value="product2" selected>Regular Fit Wool-blend jacket</option>
+            <option value="product2" selected>Men Solid Slim Fit Shirt</option>
+            <option value="product2" selected>Men Solid Slim Fit Shirt</option>
+            <option value="product2" selected>Slim Fit Easy-iron shirt</option>
+            <option value="product2" selected>URB_N Men Solid Denim Regular Fit Shirt</option>
+            <option value="product2" selected>URB_N Men Striped Relaxed Fit Shirt</option>
+            <option value="product2" selected>URB_N Men Solid Regular Fit Denim Shirt</option>
+            <option value="product2" selected>Men Solid Slim Fit Casual Shirt</option>
+           
+        </select><br><br>
+
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <label for="payment">Payment Method:</label>
+        <select id="payment" name="payment" required>
+            <option value="select">~select~</option>
+            <option value="credit_card">Credit Card</option>
+            <option value="debit_card">Debit Card</option>
+            <option value="gpay">Phonepe</option>
+        </select><br><br><br>
+
+        <button ><a style="text-decoration: none;" href="thankuclothes.html" >Submit</a></button>
+
+    </center>
+    </form>
+</body>
+</html>

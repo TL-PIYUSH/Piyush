@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #grid{
+            display: grid;
+            height: 100vh;
+            background-color: cadetblue;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 1fr 1fr 1fr;
+            padding: 20px;
+            gap: 20px;
+        }
+        .item{
+            background-color: aquamarine;
+            border: 2px solid black; 
+            height: 300px;
+            width: 100%;
+        }
+        #b1{
+            background: url(1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #b2{
+            background: url(2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #b3{
+            background: url(1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #b4{
+            background: url(2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #b5{
+            background: url(3.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #b6{
+            background: url(4.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #b7{
+            background: url(5.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #b8{
+            background: url(7.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #b9{
+            background: url(6.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <section id="grid">
+        <div id="b1" class="box">
+            <h2>Item 1</h2>
+            <!-- <img src="B1.jpg" width="100%" height="260px"> -->
+        </div>
+        <div id ="b2" class="box">
+            <h2>Item 2</h2>
+            <!-- <img src="B2.jpg" width="100%" height="260px"> -->
+        </div>
+        <div id ="b3" class="box">
+            <h2>Item 3</h2>
+        </div>
+        <div id ="b4" class="box">
+            <h2>Item 4</h2>
+        </div>
+        <div id ="b5" class="box">
+            <h2>Item 5</h2>
+        </div>
+        <div id ="b6" class="box">
+            <h2>Item 6</h2>
+        </div>
+        <div id ="b7" class="box">
+            <h2>Item 7</h2>
+        </div>
+        <div id ="b8" class="box">
+            <h2>Item 8</h2>
+        </div>
+        <div id ="b9" class="box">
+            <h2>Item 9</h2>
+        </div>
+    </section>
+</body>
+</html>

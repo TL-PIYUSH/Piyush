@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOADING PAGE</title>
+    <style> 
+        .container{
+            height: 600px;
+            background-color: goldenrod;
+            width: 100% ;
+        }
+
+        .load{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            animation-name: move;
+            animation-duration:5s;
+            background-color: yellowgreen;
+            animation-timing-function: linear;
+            animation-iteration-count: 4s;
+        }
+
+        .load:hover{
+            animation-play-state: paused;
+        }
+        @keyframes move{
+            0%{
+                top: 0;
+                left: 0;
+                background:url(img1.avif) no-repeat center/cover;
+            }
+
+            25%{
+                top: 0;
+                left: 1200px;
+                background:url(img2.avif) no-repeat center/cover;
+            }
+
+            50%{
+                top: 400px;
+                left: 1200px;
+                background:url(img3.avif) no-repeat center/cover;
+            }
+
+            75%{
+                top: 400px;
+                left: 0px;
+                background:url(img4.avif) no-repeat center/cover;
+            }
+
+            100%{
+                top: 0;
+                left: 0;
+                background:url(img5.avif) no-repeat center/cover;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="load">
+     <h3> </h3>
+        </div>                                                                                    
+
+     </div>
+
+</body>
+</html>

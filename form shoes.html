@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purchase Form</title>
+</head>
+<body bgcolor="orange">
+    <center>
+    <h2>Purchase Form</h2>
+    <form action="/submit_purchase" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea><br><br>
+
+        <label for="product">Product:</label>
+        <select id="product" name="product" required>
+            <option value="product3">SHOES</option>
+        </select><br><br>
+
+        <label for="product">Product NAME:</label>
+        <select id="product" name="product" required>
+            <option value="product3">ASIAN Men's CAPTAIN-13 Sports for Men's</option>
+            <option value="product3">NIKE Revolution 7 Men's Road Running</option>
+            <option value="product3">PARAGON Boys Sneakers for Men</option>
+            <option value="product3">NIKE Mens Jordan Stay Loyal 3 Running</option>
+            <option value="product3">Centrino Mens 6574 Casual Sneaker</option>
+            <option value="product3">Metro Men's Leather Texture Panel Stylish Lace-up Formal</option>
+            <option value="product3">Red Tape Casual Sneaker for Men</option>
+            <option value="product3">The Souled Store Urban Blaze Latte Men Low Top Sneakers At NykaaMan</option>
+            <option value="product3">Red Tape White Athleisure Walking for Men At NykaaMan</option>
+            <option value="product3">Campus Men Oxyfit Walking</option>
+            <option value="product3">HRX by Hrithik Roshan Men White And Blue Memory Foam Technology Running</option>
+            <option value="product3">Asian Tarzan-11 Sneakers For Men</option>
+        </select><br><br>
+        
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <label for="payment">Payment Method:</label>
+        <select id="payment" name="payment" required>
+            <option value="select">~select~</option>
+            <option value="credit_card">Credit Card</option>
+            <option value="debit_card">Debit Card</option>
+            <option value="gpay">Phonepe</option>
+        </select><br><br><br>
+
+        <button ><a style="text-decoration: none;" href="thankushoes.html" >Submit</a></button>
+
+    </center>
+    </form>
+</body>
+</html>
